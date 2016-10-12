@@ -4,9 +4,11 @@ html, body {
     height: 100%;
 }
 header.hd {
+    float: left;
     text-align: left;
     size: 20px;
     font-weight: bold;
+    padding-top: 40px;
 }
 div.hd {
     width: 100%;
@@ -35,8 +37,8 @@ div.right {
 }
 div.footer {
     position: fixed;
-    right: 0px;
-    bottom: 0px;
+    right: 0;
+    bottom: 0;
     width: 75%;
     height: 100px;
     background-color: gray;
@@ -54,4 +56,10 @@ p {
     font-size: 15px;
     color: white;
     text-align: center;
+}
+
+img.imagehd {
+    float: right;
+    height: 100px;
+    width: 100px;
 }
