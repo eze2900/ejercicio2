@@ -4,9 +4,12 @@ html, body {
     height: 100%;
 }
 header.hd {
+    text-align: center;
     float: left;
-    text-align: left;
-    size: 20px;
+    font-style: oblique;
+    size: 30px;
+    font-family: Arial;
+    padding-right: 100px;
     font-weight: bold;
     padding-top: 40px;
 }
@@ -18,19 +21,23 @@ div.hd {
 div.container {
     position: relative;
     width: 100%;
+    /*
+        height: calc(100% - 200px);
+    */
     height: 100%;
+    background-color: black;
 }
 div.left {
     position: absolute;
     left: 0;
-    width: 25%;
+    width: 20%;
     background-color: red;
     height: 100%;
 }
 div.right {
     position: absolute;
     right: 0;
-    width: 75%;
+    width: 80%;
     background-color: black;
     overflow-y: scroll;
     height: 100%;
@@ -39,12 +46,16 @@ div.footer {
     position: fixed;
     right: 0;
     bottom: 0;
-    width: 75%;
+    width: 80%;
     height: 100px;
     background-color: gray;
 }
 div.child {
     padding-bottom: 20px;
+}
+
+h1 {
+    font-family: Arial;
 }
 h1.enc {
     color: white;
@@ -52,14 +63,21 @@ h1.enc {
     font-size: 30px;
     font-weight: bold;
 }
+
+h1.contact {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
 p {
     font-size: 15px;
     color: white;
     text-align: center;
+    margin-right: 15px;
 }
-
 img.imagehd {
     float: right;
     height: 100px;
     width: 100px;
 }
+
