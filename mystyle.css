@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header.hd {
+    text-align: left;
+    size: 20px;
+    font-weight: bold;
+}
+div.hd {
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+div.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+div.left {
+    position: absolute;
+    left: 0;
+    width: 25%;
+    background-color: red;
+    height: 100%;
+}
+div.right {
+    position: absolute;
+    right: 0;
+    width: 75%;
+    background-color: black;
+    overflow-y: scroll;
+    height: 100%;
+}
+div.footer {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 75%;
+    height: 100px;
+    background-color: gray;
+}
+div.child {
+    padding-bottom: 20px;
+}
+h1.enc {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
