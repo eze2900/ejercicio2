@@ -33,6 +33,7 @@ div.hd {
     width: 100%;
     height: 100px;
     background-color: darkorange;
+    z-index: 10;
 }
 div.left {
     position: fixed;
@@ -51,6 +52,7 @@ div.right {
     background-color: black;
     overflow-y: auto;
     height: 100%;
+    z-index: 1;
 }
 div.footer {
     position: fixed;
@@ -59,6 +61,7 @@ div.footer {
     width: 80%;
     height: 100px;
     background-color: gray;
+    z-index: 10;
 }
 div.child {
     padding-bottom: 20px;
