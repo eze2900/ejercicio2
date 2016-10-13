@@ -3,20 +3,19 @@ html, body {
     padding: 0;
     height: 100%;
 }
+
+body {
+    background-color: black;
+}
 header.hd {
     text-align: center;
     float: left;
     font-style: oblique;
     size: 30px;
     font-family: Arial;
-    padding-right: 100px;
+    padding-left: 100px;
     font-weight: bold;
     padding-top: 40px;
-}
-div.hd {
-    width: 100%;
-    height: 100px;
-    background-color: cornflowerblue;
 }
 div.container {
     position: relative;
@@ -27,9 +26,18 @@ div.container {
     height: 100%;
     background-color: black;
 }
-div.left {
-    position: absolute;
+
+div.hd {
+    position: fixed;
     left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+div.left {
+    position: fixed;
+    left: 0;
+    top: 100px;
     width: 20%;
     background-color: red;
     height: 100%;
@@ -37,9 +45,11 @@ div.left {
 div.right {
     position: absolute;
     right: 0;
+    left: 20%;
+    top: 100px;
     width: 80%;
     background-color: black;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 100%;
 }
 div.footer {
@@ -75,9 +85,26 @@ p {
     text-align: center;
     margin-right: 15px;
 }
+
+p.prf {
+    padding-left: 15px;
+}
 img.imagehd {
     float: right;
     height: 100px;
     width: 100px;
+}
+
+a.link {
+    color: cornflowerblue;
+}
+
+div.footer-btn {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    right: 0;
+    bottom: 0;
+    background-color: cadetblue;
 }
 
