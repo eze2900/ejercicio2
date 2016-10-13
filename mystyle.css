@@ -138,6 +138,11 @@ li a {
     margin-bottom: 10px;
 }
 
+img.cosas {
+    float: right;
+    height: 25px;
+    width: 25px;
+}
 li a:hover {
     background-color: darkred;
 }
